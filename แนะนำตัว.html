@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ฟิล์มเองคับอ้วนนน 😎</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #000000, #1a1a1a);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px red;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #ff4d4d;
+        }
+
+        .box {
+            margin-top: 20px;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: red;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background: darkred;
+        }
+
+        .social {
+            margin-top: 20px;
+        }
+
+        .social a {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            background: #333;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .social a:hover {
+            background: red;
+        }
+
+        footer {
+            margin-top: 40px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>👋 ฟิล์มเองไอ้หนุ่ม!</h1>
+
+    <img src="https://1drv.ms/i/c/9fd595aafbce1ac1/IQAaBkWGqqq2TbMsiNoZLl_7ASYc7gOhHIUjk_jSNjhxKUk?e=0PXPNW">
+
+    <div class="box">
+        <p>ชื่อ: <b>ฟิล์ม</b></p>
+        <p>อายุ: <b>ย่าง 15 🔥</b></p>
+        <p>นิสัย: กวนๆ มีอีโก้กับพวกโนมารยาท พี่อินผมฟิลเลยแหละ 😏</p>
+
+        <p>🎸 งานอดิเรก:</p>
+        <ul style="list-style: none; padding: 0;">
+            <li>เล่นกีต้า</li>
+            <li>ดรียนเขียนโค้ด 💻</li>
+            <li>หาทริคหาเงิน 💸</li>
+        </ul>
+
+        <p style="color: pink;">⚠️ สเปค: ชอบรุ่นน้องนะโว้ย 😎</p>
+    </div>
+
+    <button onclick="chooseApp()">กดมาคุยดิ 😎</button>
+
+<script>
+function chooseApp() {
+    let app = prompt("จะคุยทางไหน?\n1 = IG\n2 = TikTok");
+
+    if (app == "1") {
+        window.open("https://www.instagram.com/kuy_2248?igsh=eHZ5cnZybDdkb3I2&utm_source=qr", "_blank");
+    } else if (app == "2") {
+        window.open("https://www.tiktok.com/@mairu815?_r=1&_t=ZS-95sbKaPuaNW", "_blank");
+    } else {
+        alert("เลือกดีๆดิ 😏");
+    }
+}
+</script>
+
+<footer>
+    <p>© 2026 FILM THE LEGEND 😎</p>
+</footer>
+
+</body>
+</html>
